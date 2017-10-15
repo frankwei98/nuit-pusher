@@ -1,0 +1,9 @@
+from datetime import date
+
+API = 'https://pushbear.ftqq.com/sub'
+DEFAULT_SENDKEY = 'XXXXXXXXXX'  # 通道的SendKey，必填
+
+WEEKS = range(1, 17)  # return a list from 1-16 (not 17!)
+# 第一天上课和最后一天的上课时间
+FIRST_DAY = date(2017, 9, 18)
+LAST_DAY = date(2018, 1, 5)
